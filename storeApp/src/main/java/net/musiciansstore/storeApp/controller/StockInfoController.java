@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.*;
 
 @RestController
-@RequestMapping("stockinfo")
+@RequestMapping("stock-info")
 public class StockInfoController {
     @Autowired
     private InstrumentService _instrumentService;
